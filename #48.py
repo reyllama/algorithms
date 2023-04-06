@@ -22,3 +22,7 @@ class Solution:
                 cache[c].append(matrix[r][c])
             # Concatenate column chunk and cache chunk
             matrix[r] = [matrix[n-k-1][r] for k in range(n)][:n-r] + cache[r][::-1]
+
+"""
+Time > 67.85%, Memory > 97.13%
+"""
