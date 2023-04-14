@@ -98,4 +98,5 @@ class Solution:
 """
 Time > 5.1%, Memory > 72.35%
 Maximally exploit the previous state by dynamically changing left and right index.
+Also, note for all() function that comes in handy.
 """
