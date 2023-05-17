@@ -19,3 +19,11 @@ class Solution:
             stack.append([streak+1, height])
             print(height, curMax)
         return curMax
+
+"""
+<Idea>
+Keep a monotonic stack, where if a new number is smaller than the last element, we start calculating curMax.
+(As long as the number keeps increasing, it is GUARANTEED that the rectangle expands.
+Use the variable streak very cleverly, which indicates how much width can be supported at current height level.
+If height gets smaller, the streak gets larger as we are trading off height for width.
+"""
