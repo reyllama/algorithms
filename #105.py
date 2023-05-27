@@ -62,4 +62,5 @@ class Solution:
 
 """
 Time > 16.41%, Memory > 12.30%
+Signature for constructing a binary tree.
 """
